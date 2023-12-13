@@ -163,23 +163,7 @@ $lang = [
 								<li>Open the file download page and click <b>Send to aria2(Motrix)</b></li>
 								<li>Type <b>ws://localhost:16800/jsonrpc</b> in the "RPC地址".Click send button.</li>
 							</ol>
-							<div id="aria2-windows"><a class="anchor" href="#aria2-windows"></a>
-								<h4>Aria2(Windows)</h4>
-							</div>
-							<ol>
-								<li><a href="./resource/aria2.zip">Click here</a> to download <b>aria2.zip</b></li>
-								<li>Unzip <b>aria2.zip</b> and run <b>点此启动.bat</b></li>
-								<li>Open the file download page and click <b>Send to aria2(Motrix)</b></li>
-							</ol>
-							<div id="aria2-android"><a class="anchor" href="#aria2-android"></a>
-								<h4>Aria2(Android)</h4>
-							</div>
-							<ol>
-								<li><a data-qrcode-attr="href" href="https://github.com/devgianlu/Aria2Android/releases/download/v2.6.1/app-foss-release.apk">Click here</a>  to download  <b>Aria2Android.apk</b></li>
-								<li>Install <b>Aria2Android.apk</b> and run the APP</li>
-								<li>Set your RPC token and then click the bottom button to run aria2</li>
-								<li>Open the file download page and put your <b>token</b> in the box, then click <b>Send to aria2(Motrix)</b></li>
-							</ol>
+							
 							<div id="IDM"><a class="anchor" href="#IDM"></a>
 								<h4>Internet Download Manager</h4>
 							</div>
@@ -187,36 +171,7 @@ $lang = [
 								<li>Options -> Downloads -> User-Angent for manually added downloads -> Type in <b>LogStatistic</b></li>
 								<li><b>Copy the download link.</b> -> Add URL (in IDM) -> Paste the link -> OK </li>
 							</ol>
-							<div id="Chrome"><a class="anchor" href="#Chrome"></a>
-								<h4>Chrome Browser</h4>
-							</div>
-							<ol>
-								<li>Install the browser extension <a href="https://chrome.google.com/webstore/detail/user-agent-switcher-for-c/djflhoibgkdhkhhcedjiklpkjnoahfmg" target="_blank">User-Agent Switcher for Chrome</a></li>
-								<li>Right click on the extension icon -> Options</li>
-								<li>New User-Agent name fill in Baidu Netdisk Share Download</li>
-								<li>New User-Agent String fill in <b>LogStatistic</b></li>
-								<li>Group fill in Baidu Netdisk</li>
-								<li>Append? Select Replace</li>
-								<li>Indicator Flag fill in Log, click Add to save</li>
-								<li>After saving, click the extension icon, and "Baidu Netdisk" will appear. Enter and select "Baidu Netdisk Share Download".</li>
-							</ol>
-							<blockquote>
-								<p>If you can\'t open the Chrome Web Store or other Chromium-based browsers, <a href="resource/UserAgentSwitcher.crx" target="_blank">please click here to download</a></p>
-								<p><a href="https://appcenter.browser.qq.com/search/detail?key=User-Agent%20Switcher%20for%20Chrome&amp;id=djflhoibgkdhkhhcedjiklpkjnoahfmg%20&amp;title=User-Agent%20Switcher%20for%20Chrome" target="_blank">QQ browser plug-in download</a></p>
-							</blockquote>
-							<div id="Alook"><a class="anchor" href="#Alook"></a>
-								<h4>Alook Browser (IOS)</h4>
-							</div>
-							<ol>
-								<li>Settings -> General Settings -> Browser Identification -> Mobile Browser Identification -> Custom -><br />Fill in <b>LogStatistic</b></li>
-							</ol>
-							<div id="Copyright"><a class="anchor" href="#Copyright"></a>
-								<h4>About this project</h4>
-							</div>
-							<ol>
-								<li>This project is only for learning purposes and must not be used for other purposes.</li>
-								<li>Project author: <a href="https://imwcr.cn/" target="_blank">Yuan_Tuo</a></li>
-								<li>Project collaborator: <a href="https://lcwebsite.cn/" target="_blank">LC</a></li>
+				
 						</section>
 						<script>
 							$(".anchor").attr("target", "_self").prepend(`<svg viewBox="0 0 16 16" version="1.1" width="16" height="16"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5
