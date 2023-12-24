@@ -55,6 +55,7 @@ if (DEBUG) {
 <html data-bs-theme="light">
 
 <head>
+<meta name="viewport" content="width=device-width,initial-scale=1">    
   <style>
 .chakra-ui-light{
   background-image: url("https://api.mwm.moe/moez") !important;
