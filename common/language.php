@@ -236,13 +236,9 @@ if (!defined('Lang')) { // 如果没有支持的语言
 	switch (DefaultLanguage) {
 		case "zh-CN":
 			define('Lang', "zh-CN"); // 设为英语
-			echo "<div id=\"Language\" style=\"margin: 0.3rem 1rem;\">本项目没有支持你的语言，目前显示的是 简体中文 版本。 <a href=\"?usersettings\" target=\"_blank\">点击此处选择语言</div>"; // 输出没有支持的语言提示
+		
 			break;
-		case "en":
-		default:
-			define('Lang', "en"); // 设为英语
-			echo "<div id=\"Language\" style=\"margin: 0.3rem 1rem;\">This project is not available in your language, the following is the English version. <a href=\"?usersettings\" target=\"_blank\">Click here to select language.</div>"; // 输出没有支持的语言提示
-			break;
+		
 	}
 }
 
